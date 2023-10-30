@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.left{
+font-size: 1.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgba(43, 226, 217, 0.758);
+    font-size: 22px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+   color: blue;
+   font-size: 1.1rem;
+   
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.firstsection > div{
+    width: 30%;
+    
+    
+}
+.leftsection{
+
+font-size: 3rem;
+margin-top: 180px;
+}
+
+.leftsection span{
+    color: blueviolet;
+}
+.leftsection div{
+    font-size: 1.9rem;
+}
+
+.buttons{
+    margin-top: 35px;
+}
+
+.buttons button{
+
+padding: 9px 14px;
+border-radius: 20px;
+font-size: 20px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+margin: 0px 3px;
+cursor: pointer;
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+
+
+.rightsection{
+    border-radius: 40px;
+}
+.rightsection img{
+    width: 320px;
+    height: 215px;
+    margin: 0px 0px;
+    background-color: transparent;
+    padding: 40px;
+    font-size: 23px;
+    font-weight: 13px;
+    border-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 40px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #012290f7,
+                1px 1px 40px #012290f7;
+}
+
+.contact-form form{
+    position: relative;
+}
+
+.contact-form form input{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #555557;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contact-form textarea{
+    resize: none;
+    height: 220px;
+    font-size: 26px;
+    font-weight: 400;
+
+}
+.contact-form form.send{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #001b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
+}
+
+.contact-form form.send:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px, cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
+.last-text p{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: rgba(34, 7, 91, 0.607);
+    font-weight: 300;
+    margin-top: 70px;
+}
+
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+
+}
+.top i{
+    color: #000;
+    background: #0ef;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.8rem;
+}
